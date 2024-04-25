@@ -80,6 +80,7 @@ return [
     | than one user table or model in the application and you want to have
     | separate password reset settings based on the specific user types.
     |
+<<<<<<< HEAD
     | The expiry time is the number of minutes that each reset token will be
     | considered valid. This security feature keeps tokens short-lived so
     | they have less time to be guessed. You may change this as needed.
@@ -88,12 +89,22 @@ return [
     | generating more password reset tokens. This prevents the user from
     | quickly generating a very large amount of password reset tokens.
     |
+=======
+    | The expire time is the number of minutes that each reset token will be
+    | considered valid. This security feature keeps tokens short-lived so
+    | they have less time to be guessed. You may change this as needed.
+    |
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     */
 
     'passwords' => [
         'users' => [
             'provider' => 'users',
+<<<<<<< HEAD
             'table' => 'password_reset_tokens',
+=======
+            'table' => 'password_resets',
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             'expire' => 60,
             'throttle' => 60,
         ],

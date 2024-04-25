@@ -3,7 +3,11 @@
 @section('title', 'Input groups - Forms')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4"><span class="text-muted fw-light">Forms /</span> Input groups</h4>
+=======
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms /</span> Input groups</h4>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 <div class="row">
   <!-- Basic -->
@@ -37,7 +41,11 @@
 
         <div class="input-group">
           <span class="input-group-text">$</span>
+<<<<<<< HEAD
           <input type="number" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)" />
+=======
+          <input type="text" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)" />
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <span class="input-group-text">.00</span>
         </div>
 
@@ -81,7 +89,11 @@
 
         <div class="input-group input-group-merge">
           <span class="input-group-text">$</span>
+<<<<<<< HEAD
           <input type="number" class="form-control" placeholder="100" aria-label="Amount (to the nearest dollar)" />
+=======
+          <input type="text" class="form-control" placeholder="100" aria-label="Amount (to the nearest dollar)" />
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <span class="input-group-text">.00</span>
         </div>
 
@@ -114,6 +126,10 @@
           <span class="input-group-text">@</span>
           <input type="text" class="form-control" placeholder="Username" />
         </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       </div>
     </div>
   </div>
@@ -151,14 +167,22 @@
       <h5 class="card-header">Multiple inputs & addon</h5>
 
       <div class="card-body demo-vertical-spacing demo-only-element">
+<<<<<<< HEAD
         <small class="text-light fw-medium d-block">Multiple inputs</small>
+=======
+        <small class="text-light fw-semibold d-block">Multiple inputs</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="input-group">
           <span class="input-group-text">First and last name</span>
           <input type="text" aria-label="First name" class="form-control">
           <input type="text" aria-label="Last name" class="form-control">
         </div>
 
+<<<<<<< HEAD
         <small class="text-light fw-medium d-block pt-3">Multiple addons</small>
+=======
+        <small class="text-light fw-semibold d-block pt-3">Multiple addons</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="input-group">
           <span class="input-group-text">$</span>
           <span class="input-group-text">0.00</span>
@@ -180,7 +204,11 @@
       <h5 class="card-header">Speech To Text</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
+<<<<<<< HEAD
         <small class="text-light fw-medium d-block">Input Group</small>
+=======
+        <small class="text-light fw-semibold d-block">Input Group</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
         <div class="input-group input-group-merge speech-to-text">
           <input type="text" class="form-control" placeholder="Say it" aria-describedby="text-to-speech-addon">
@@ -189,12 +217,21 @@
           </span>
         </div>
 
+<<<<<<< HEAD
         <small class="text-light fw-medium d-block pt-3">Textarea</small>
 
         <div class="input-group input-group-merge form-send-message">
           <textarea class="form-control message-input" placeholder="Say it" rows="2"></textarea>
           <span class="message-actions input-group-text">
             <i class='bx bx-microphone cursor-pointer speech-to-text'></i>
+=======
+        <small class="text-light fw-semibold d-block pt-3">Textarea</small>
+
+        <div class="input-group input-group-merge speech-to-text">
+          <textarea class="form-control" placeholder="Say it" rows="2"></textarea>
+          <span class="input-group-text">
+            <i class='bx bx-microphone cursor-pointer text-to-speech-toggle'></i>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           </span>
         </div>
 
@@ -209,7 +246,11 @@
     <div class="card mb-4">
       <h5 class="card-header">Button with dropdowns & addons</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
+<<<<<<< HEAD
         <small class="text-light fw-medium d-block">Button addons</small>
+=======
+        <small class="text-light fw-semibold d-block">Button addons</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="input-group">
           <button class="btn btn-outline-primary" type="button" id="button-addon1">Button</button>
           <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
@@ -232,7 +273,11 @@
           <button class="btn btn-outline-primary" type="button">Button</button>
         </div>
 
+<<<<<<< HEAD
         <small class="text-light fw-medium d-block pt-3">Button with dropdowns</small>
+=======
+        <small class="text-light fw-semibold d-block pt-3">Button with dropdowns</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="input-group">
           <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
           <ul class="dropdown-menu">

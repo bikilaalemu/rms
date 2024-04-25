@@ -3,7 +3,11 @@
 @section('title', 'Buttons - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">UI elements /</span>
   Buttons
 </h4>
@@ -15,7 +19,11 @@
     <div class="card mb-4">
       <h5 class="card-header">Basic Buttons</h5>
       <div class="card-body">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Default</small>
+=======
+        <small class="text-light fw-semibold">Default</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <button type="button" class="btn btn-primary">Primary</button>
           <button type="button" class="btn btn-secondary">Secondary</button>
@@ -28,7 +36,11 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Rounded</small>
+=======
+        <small class="text-light fw-semibold">Rounded</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <button type="button" class="btn rounded-pill btn-primary">Primary</button>
           <button type="button" class="btn rounded-pill btn-secondary">Secondary</button>
@@ -48,7 +60,11 @@
     <div class="card mb-4">
       <h5 class="card-header">Outline Buttons</h5>
       <div class="card-body">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Default</small>
+=======
+        <small class="text-light fw-semibold">Default</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <button type="button" class="btn btn-outline-primary">Primary</button>
           <button type="button" class="btn btn-outline-secondary">Secondary</button>
@@ -61,7 +77,11 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Rounded</small>
+=======
+        <small class="text-light fw-semibold">Rounded</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <button type="button" class="btn rounded-pill btn-outline-primary">Primary</button>
           <button type="button" class="btn rounded-pill btn-outline-secondary">Secondary</button>
@@ -82,6 +102,7 @@
       <h5 class="card-header">Buttons with Icons</h5>
       <div class="card-body">
         <div class="row gy-3">
+<<<<<<< HEAD
           <div class="col-md-6 col-lg-4">
             <small class="text-light fw-medium">Basic</small>
             <div class="demo-inline-spacing">
@@ -90,11 +111,25 @@
               </button>
               <button type="button" class="btn btn-secondary">
                 <span class="tf-icons bx bx-bell me-1"></span>Secondary
+=======
+          <div class="col-md-6">
+            <small class="text-light fw-semibold">Basic</small>
+            <div class="demo-inline-spacing">
+              <button type="button" class="btn btn-primary">
+                <span class="tf-icons bx bx-pie-chart-alt"></span>&nbsp; Primary
+              </button>
+              <button type="button" class="btn btn-secondary">
+                <span class="tf-icons bx bx-bell"></span>&nbsp; Secondary
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               </button>
             </div>
             <div class="demo-inline-spacing">
               <button type="button" class="btn rounded-pill btn-primary">
+<<<<<<< HEAD
                 <span class="tf-icons bx bx-pie-chart-alt me-1"></span>Primary
+=======
+                <span class="tf-icons bx bx-pie-chart-alt"></span>&nbsp; Primary
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               </button>
               <button type="button" class="btn rounded-pill btn-secondary">
                 <span class="tf-icons bx bx-bell"></span>&nbsp; Secondary
@@ -102,6 +137,7 @@
             </div>
           </div>
           <div class="col-md-6">
+<<<<<<< HEAD
             <small class="text-light fw-medium">Outline</small>
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-outline-primary">
@@ -109,14 +145,30 @@
               </button>
               <button type="button" class="btn btn-outline-secondary">
                 <span class="tf-icons bx bx-bell me-1"></span>Secondary
+=======
+            <small class="text-light fw-semibold">Outline</small>
+            <div class="demo-inline-spacing">
+              <button type="button" class="btn btn-outline-primary">
+                <span class="tf-icons bx bx-pie-chart-alt"></span>&nbsp; Primary
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                <span class="tf-icons bx bx-bell"></span>&nbsp; Secondary
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               </button>
             </div>
             <div class="demo-inline-spacing">
               <button type="button" class="btn rounded-pill btn-outline-primary">
+<<<<<<< HEAD
                 <span class="tf-icons bx bx-pie-chart-alt me-1"></span>Primary
               </button>
               <button type="button" class="btn rounded-pill btn-outline-secondary">
                 <span class="tf-icons bx bx-bell me-1"></span>Secondary
+=======
+                <span class="tf-icons bx bx-pie-chart-alt"></span>&nbsp; Primary
+              </button>
+              <button type="button" class="btn rounded-pill btn-outline-secondary">
+                <span class="tf-icons bx bx-bell"></span>&nbsp; Secondary
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               </button>
             </div>
           </div>
@@ -125,8 +177,13 @@
       <hr class="m-0" />
       <div class="card-body">
         <div class="row gy-3">
+<<<<<<< HEAD
           <div class="col-md-6 col-lg-4">
             <small class="text-light fw-medium">Basic</small>
+=======
+          <div class="col-md-6">
+            <small class="text-light fw-semibold">Basic</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-icon btn-primary">
                 <span class="tf-icons bx bx-pie-chart-alt"></span>
@@ -143,7 +200,11 @@
             </div>
           </div>
           <div class="col-md-6">
+<<<<<<< HEAD
             <small class="text-light fw-medium">Outline</small>
+=======
+            <small class="text-light fw-semibold">Outline</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="demo-inline-spacing">
               <button type="button" class="btn btn-icon btn-outline-primary">
                 <span class="tf-icons bx bx-pie-chart-alt"></span>
@@ -169,7 +230,11 @@
     <div class="card mb-4">
       <h5 class="card-header">Button Options</h5>
       <div class="card-body">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Sizes</small>
+=======
+        <small class="text-light fw-semibold">Sizes</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <button type="button" class="btn btn-xl btn-primary">Button xl</button>
           <button type="button" class="btn btn-lg btn-primary">Button lg</button>
@@ -180,7 +245,11 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Buttons State</small>
+=======
+        <small class="text-light fw-semibold">Buttons State</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <button type="button" class="btn btn-primary">Normal</button>
           <button type="button" class="btn btn-primary active">Active</button>
@@ -189,7 +258,11 @@
       </div>
       <hr class="m-0" />
       <div class="card-body">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Block level buttons</small>
+=======
+        <small class="text-light fw-semibold">Block level buttons</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="row mt-3">
           <div class="d-grid gap-2 col-lg-6 mx-auto">
             <button class="btn btn-primary btn-lg" type="button">Button</button>
@@ -207,6 +280,7 @@
       <div class="card-body">
         <div class="row gy-3">
           <div class="col-xl-3">
+<<<<<<< HEAD
             <div class="text-light small fw-medium">Toggle states</div>
             <div class="demo-vertical-spacing">
               <button type="button" class="btn btn-primary d-block" data-bs-toggle="button">Toggle button</button>
@@ -227,11 +301,40 @@
               </div>
               <div class="d-block">
                 <input type="checkbox" class="btn-check" id="btn-check-3" checked>
+=======
+            <div class="text-light small fw-semibold">Toggle states</div>
+            <div class="demo-vertical-spacing">
+              <button type="button" class="btn btn-primary d-block" data-bs-toggle="button" autocomplete="off">
+                Toggle button
+              </button>
+              <button type="button" class="btn btn-primary active d-block" data-bs-toggle="button" autocomplete="off" aria-pressed="true">
+                Active toggle button
+              </button>
+              <button type="button" class="btn btn-primary d-block" disabled data-bs-toggle="button" autocomplete="off">
+                Disabled toggle button
+              </button>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="text-light small fw-semibold">Checkbox toggle buttons</div>
+            <div class="demo-vertical-spacing">
+              <div class="d-block">
+                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off" />
+                <label class="btn btn-primary" for="btn-check">Single toggle</label>
+              </div>
+              <div class="d-block">
+                <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off" />
+                <label class="btn btn-primary" for="btn-check-2">Checked</label>
+              </div>
+              <div class="d-block">
+                <input type="checkbox" class="btn-check" id="btn-check-3" checked autocomplete="off" />
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
                 <label class="btn btn-primary" for="btn-check-3">Checked</label>
               </div>
             </div>
           </div>
           <div class="col-xl-6">
+<<<<<<< HEAD
             <div class="text-light small fw-medium">Checkbox and radio</div>
             <div class="demo-vertical-spacing">
               <!-- Checkbox -->
@@ -244,15 +347,35 @@
 
               <input type="checkbox" class="btn-check" id="btncheck3">
               <label class="btn btn-outline-primary d-flex flex-column" for="btncheck3"><span class="d-none d-sm-block">Checkbox</span>3</label>
+=======
+            <div class="text-light small fw-semibold">Checkbox and radio</div>
+            <div class="demo-vertical-spacing">
+              <!-- Checkbox -->
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" checked autocomplete="off" />
+                <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1 (pre-checked)</label>
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off" />
+                <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off" />
+                <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               </div>
               <br />
               <!-- Radio -->
               <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+<<<<<<< HEAD
                 <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
                 <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
                 <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
                 <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
+=======
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked autocomplete="off" />
+                <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
+                <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
                 <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
               </div>
             </div>
@@ -269,7 +392,11 @@
       <div class="card-body">
         <div class="row g-4">
           <div class="col-md-6">
+<<<<<<< HEAD
             <small class="text-light fw-medium">Basic</small>
+=======
+            <small class="text-light fw-semibold">Basic</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="mt-3">
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-secondary">Left</button>
@@ -279,7 +406,11 @@
             </div>
           </div>
           <div class="col-md-6">
+<<<<<<< HEAD
             <small class="text-light fw-medium">Outline</small>
+=======
+            <small class="text-light fw-semibold">Outline</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="mt-3">
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-outline-secondary">Left</button>
@@ -294,33 +425,67 @@
       <div class="card-body">
         <div class="row">
           <div class="col-xl-6 mb-xl-0 mb-3">
+<<<<<<< HEAD
             <small class="text-light fw-medium">Button Toolbar</small>
+=======
+            <small class="text-light fw-semibold">Button Toolbar</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="btn-toolbar demo-inline-spacing" role="toolbar" aria-label="Toolbar with button groups">
               <div class="btn-group" role="group" aria-label="First group">
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-bell"></i></button>
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-task"></i></button>
+<<<<<<< HEAD
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-check-shield"></i></button>
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-comment-dots"></i></button>
+=======
+                <button type="button" class="btn btn-outline-secondary">
+                  <i class="tf-icons bx bx-check-shield"></i>
+                </button>
+                <button type="button" class="btn btn-outline-secondary">
+                  <i class="tf-icons bx bx-comment-dots"></i>
+                </button>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               </div>
               <div class="btn-group" role="group" aria-label="Second group">
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-bold"></i></button>
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-italic"></i></button>
+<<<<<<< HEAD
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-underline"></i></button>
               </div>
               <div class="btn-group" role="group" aria-label="Third group">
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-volume-full"></i></button>
+=======
+                <button type="button" class="btn btn-outline-secondary">
+                  <i class="tf-icons bx bx-underline"></i>
+                </button>
+              </div>
+              <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-outline-secondary">
+                  <i class="tf-icons bx bx-volume-full"></i>
+                </button>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               </div>
             </div>
           </div>
           <div class="col-xl-6">
+<<<<<<< HEAD
             <small class="text-light fw-medium">Button Nesting</small>
+=======
+            <small class="text-light fw-semibold">Button Nesting</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="mt-3">
               <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-car"></i></button>
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-rocket"></i></button>
                 <button type="button" class="btn btn-outline-secondary"><i class="tf-icons bx bx-bulb"></i></button>
                 <div class="btn-group" role="group">
+<<<<<<< HEAD
                   <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+=======
+                  <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </button>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
                   <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                     <a class="dropdown-item" href="javascript:void(0);">Dropdown link</a>
                     <a class="dropdown-item" href="javascript:void(0);">Dropdown link</a>

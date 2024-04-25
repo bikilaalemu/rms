@@ -7,7 +7,11 @@
 (function () {
   let cardColor, headingColor, axisColor, shadeColor, borderColor;
 
+<<<<<<< HEAD
   cardColor = config.colors.cardColor;
+=======
+  cardColor = config.colors.white;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   headingColor = config.colors.headingColor;
   axisColor = config.colors.axisColor;
   borderColor = config.colors.borderColor;
@@ -302,7 +306,11 @@
               offsetY: 15,
               color: headingColor,
               fontSize: '15px',
+<<<<<<< HEAD
               fontWeight: '500',
+=======
+              fontWeight: '600',
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               fontFamily: 'Public Sans'
             },
             value: {
@@ -432,7 +440,11 @@
       colors: [config.colors.primary, config.colors.secondary, config.colors.info, config.colors.success],
       stroke: {
         width: 5,
+<<<<<<< HEAD
         colors: [cardColor]
+=======
+        colors: cardColor
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       },
       dataLabels: {
         enabled: false,
@@ -450,6 +462,7 @@
           right: 15
         }
       },
+<<<<<<< HEAD
       states: {
         hover: {
           filter: { type: 'none' }
@@ -458,6 +471,8 @@
           filter: { type: 'none' }
         }
       },
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       plotOptions: {
         pie: {
           donut: {

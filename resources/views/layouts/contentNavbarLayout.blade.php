@@ -8,6 +8,11 @@ $isNavbar = ($isNavbar ?? true);
 $isMenu = ($isMenu ?? true);
 $isFlex = ($isFlex ?? false);
 $isFooter = ($isFooter ?? true);
+<<<<<<< HEAD
+=======
+$customizerHidden = ($customizerHidden ?? '');
+$pricingModal = ($pricingModal ?? false);
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 /* HTML Classes */
 $navbarDetached = 'navbar-detached';
@@ -47,6 +52,15 @@ $container = ($container ?? 'container-xxl');
 
             @yield('content')
 
+<<<<<<< HEAD
+=======
+            <!-- pricingModal -->
+            @if ($pricingModal)
+            @include('_partials/_modals/modal-pricing')
+            @endif
+            <!--/ pricingModal -->
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           </div>
           <!-- / Content -->
 

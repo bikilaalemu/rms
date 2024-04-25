@@ -2,6 +2,7 @@
   "menu": [
     {
       "url": "/",
+<<<<<<< HEAD
       "name": "Dashboards",
       "icon": "menu-icon tf-icons bx bx-home-circle",
       "slug": "dashboard",
@@ -56,6 +57,11 @@
           ]
         }
       ]
+=======
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     },
     {
       "name": "Layouts",
@@ -63,27 +69,47 @@
       "slug": "layouts",
       "submenu": [
         {
+<<<<<<< HEAD
           "url": "layouts/without-menu",
+=======
+          "url": "/layouts/without-menu",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Without menu",
           "slug": "layouts-without-menu"
         },
         {
+<<<<<<< HEAD
           "url": "layouts/without-navbar",
+=======
+          "url": "/layouts/without-navbar",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Without navbar",
           "slug": "layouts-without-navbar"
         },
         {
+<<<<<<< HEAD
           "url": "layouts/container",
+=======
+          "url": "/layouts/container",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Container",
           "slug": "layouts-container"
         },
         {
+<<<<<<< HEAD
           "url": "layouts/fluid",
+=======
+          "url": "/layouts/fluid",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Fluid",
           "slug": "layouts-fluid"
         },
         {
+<<<<<<< HEAD
           "url": "layouts/blank",
+=======
+          "url": "/layouts/blank",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Blank",
           "slug": "layouts-blank",
           "target": "_blank"
@@ -91,6 +117,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "name": "Front Pages",
       "icon": "menu-icon tf-icons bx bx-store",
       "slug": "front-pages",
@@ -194,6 +221,9 @@
         "label-primary fs-tiny",
         "Pro"
       ]
+=======
+      "menuHeader": "Pages"
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     },
     {
       "name": "Account Settings",
@@ -201,17 +231,29 @@
       "slug": "pages-account-settings",
       "submenu": [
         {
+<<<<<<< HEAD
           "url": "pages/account-settings-account",
+=======
+          "url": "/pages/account-settings-account",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Account",
           "slug": "pages-account-settings-account"
         },
         {
+<<<<<<< HEAD
           "url": "pages/account-settings-notifications",
+=======
+          "url": "/pages/account-settings-notifications",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Notifications",
           "slug": "pages-account-settings-notifications"
         },
         {
+<<<<<<< HEAD
           "url": "pages/account-settings-connections",
+=======
+          "url": "/pages/account-settings-connections",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Connections",
           "slug": "pages-account-settings-connections"
         }
@@ -223,19 +265,31 @@
       "slug": "auth",
       "submenu": [
         {
+<<<<<<< HEAD
           "url": "auth/login-basic",
+=======
+          "url": "/auth/login-basic",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Login",
           "slug": "auth-login-basic",
           "target": "_blank"
         },
         {
+<<<<<<< HEAD
           "url": "auth/register-basic",
+=======
+          "url": "/auth/register-basic",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Register",
           "slug": "auth-register-basic",
           "target": "_blank"
         },
         {
+<<<<<<< HEAD
           "url": "auth/forgot-password-basic",
+=======
+          "url": "/auth/forgot-password-basic",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Forgot Password",
           "slug": "auth-forgot-password-basic",
           "target": "_blank"
@@ -248,13 +302,21 @@
       "slug": "pages-misc",
       "submenu": [
         {
+<<<<<<< HEAD
           "url": "pages/misc-error",
+=======
+          "url": "/pages/misc-error",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Error",
           "slug": "pages-misc-error",
           "target": "_blank"
         },
         {
+<<<<<<< HEAD
           "url": "pages/misc-under-maintenance",
+=======
+          "url": "/pages/misc-under-maintenance",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "name": "Under Maintenance",
           "slug": "pages-misc-under-maintenance",
           "target": "_blank"
@@ -268,7 +330,11 @@
       "name": "Cards",
       "icon": "menu-icon tf-icons bx bx-collection",
       "slug": "cards-basic",
+<<<<<<< HEAD
       "url": "cards/basic"
+=======
+      "url": "/cards/basic"
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     },
     {
       "name": "User interface",
@@ -317,7 +383,11 @@
         },
         {
           "url": "ui/list-groups",
+<<<<<<< HEAD
           "name": "List Groups",
+=======
+          "name": "List groups",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "slug": "ui-list-groups"
         },
         {
@@ -362,7 +432,11 @@
         },
         {
           "url": "ui/tooltips-popovers",
+<<<<<<< HEAD
           "name": "Tooltips & Popovers",
+=======
+          "name": "Tooltips & popovers",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           "slug": "ui-tooltips-popovers"
         },
         {
@@ -433,6 +507,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/form/validation",
       "icon": "menu-icon tf-icons bx bx-list-check",
       "name": "Form Validation",
@@ -444,12 +519,15 @@
       ]
     },
     {
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       "url": "tables/basic",
       "icon": "menu-icon tf-icons bx bx-table",
       "name": "Tables",
       "slug": "tables-basic"
     },
     {
+<<<<<<< HEAD
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/tables/datatables-basic",
       "icon": "menu-icon tf-icons bx bx-grid",
       "name": "Datatables",
@@ -465,6 +543,12 @@
     },
     {
       "url": "https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free/issues",
+=======
+      "menuHeader": "Misc"
+    },
+    {
+      "url": "https://themeselection.com/support/",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       "icon": "menu-icon tf-icons bx bx-support",
       "name": "Support",
       "slug": "support",
@@ -478,4 +562,8 @@
       "target": "_blank"
     }
   ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc

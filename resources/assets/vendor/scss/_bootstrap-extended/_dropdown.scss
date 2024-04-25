@@ -7,7 +7,14 @@
 }
 
 .dropdown-menu {
+<<<<<<< HEAD
   box-shadow: $dropdown-box-shadow;
+=======
+  margin: $dropdown-spacer 0;
+  box-shadow: $dropdown-box-shadow;
+  // Animations
+  animation: dropdownAnimation 0.1s;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
   // Mega dropdown inside the dropdown menu
   .mega-dropdown > & {
@@ -41,6 +48,7 @@
 @if $enable-caret {
   // Dropdown arrow
   .dropdown-toggle::after {
+<<<<<<< HEAD
     @include caret-down($caret-width);
   }
   // Dropend arrow
@@ -54,6 +62,21 @@
   // Dropup arrow
   .dropup .dropdown-toggle::after {
     @include caret-up($caret-width);
+=======
+    @include caret-down;
+  }
+  // Dropend arrow
+  .dropend .dropdown-toggle::after {
+    @include caret-right;
+  }
+  // Dropstart arrow
+  .dropstart .dropdown-toggle::before {
+    @include caret-left;
+  }
+  // Dropup arrow
+  .dropup .dropdown-toggle::after {
+    @include caret-up;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   }
 
   .dropstart .dropdown-toggle::before,

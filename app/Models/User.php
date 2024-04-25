@@ -2,7 +2,11 @@
 
 namespace App\Models;
 
+<<<<<<< HEAD
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+=======
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -40,6 +44,9 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+<<<<<<< HEAD
         'password' => 'hashed',
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     ];
 }

@@ -3,12 +3,15 @@
 
 // Using :focus-within to apply focus/validation border and shadow to default and merged input-group
 .input-group {
+<<<<<<< HEAD
   &:hover {
     .input-group-text,
     .form-control {
       border-color: $input-border-hover-color;
     }
   }
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   &:focus-within {
     box-shadow: $input-focus-box-shadow;
     .form-control,
@@ -64,9 +67,12 @@
         padding-right: 0;
         border-right: 0;
       }
+<<<<<<< HEAD
       &:is(textarea):not(:last-child) {
         padding-right: $input-btn-padding-x;
       }
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     }
   }
 }

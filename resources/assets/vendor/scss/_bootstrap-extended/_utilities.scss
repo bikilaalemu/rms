@@ -16,6 +16,7 @@ $utilities: map-merge(
         values: baseline top middle bottom text-bottom text-top
       ),
     // scss-docs-end utils-vertical-align
+<<<<<<< HEAD
     // Object Fit utilities
     // scss-docs-start utils-object-fit
     'object-fit':
@@ -45,6 +46,8 @@ $utilities: map-merge(
         )
       ),
     // scss-docs-end utils-opacity
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     // scss-docs-start utils-overflow
     'overflow':
       (
@@ -90,6 +93,23 @@ $utilities: map-merge(
       values: $position-values
     ),
     // scss-docs-end utils-position
+<<<<<<< HEAD
+=======
+    // scss-docs-start utils-zindex
+    'zindex':
+      (
+        property: z-index,
+        class: zindex,
+        values: (
+          1: 1,
+          2: 2,
+          3: 3,
+          4: 4,
+          5: 5
+        )
+      ),
+    // scss-docs-end utils-zindex
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     // scss-docs-start utils-borders
     'border':
       (
@@ -99,6 +119,7 @@ $utilities: map-merge(
           0: 0
         )
       ),
+<<<<<<< HEAD
     'border-style': (
       property: border-style,
       class: border,
@@ -109,6 +130,8 @@ $utilities: map-merge(
         none: none
       )
     ),
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     'border-top': (
       property: border-top,
       values: (
@@ -137,6 +160,7 @@ $utilities: map-merge(
           )
         )
     ),
+<<<<<<< HEAD
     'border-label-color': (
       property: border-color,
       class: border-label,
@@ -145,11 +169,14 @@ $utilities: map-merge(
       ),
       values: $utilities-border-colors
     ),
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     'border-width': (
       property: border-width,
       class: border,
       values: $border-widths
     ),
+<<<<<<< HEAD
     'border-opacity': (
       css-var: true,
       class: border-opacity,
@@ -161,6 +188,8 @@ $utilities: map-merge(
         100: 1
       )
     ),
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     // scss-docs-end utils-borders
     // Sizing utilities
     // scss-docs-start utils-sizing
@@ -172,10 +201,15 @@ $utilities: map-merge(
           map-merge(
             $sizes-px,
             (
+<<<<<<< HEAD
               20: 20%,
               25: 25%,
               50: 50%,
               60: 60%,
+=======
+              25: 25%,
+              50: 50%,
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               75: 75%,
               100: 100%,
               auto: auto
@@ -280,6 +314,15 @@ $utilities: map-merge(
       class: flex,
       values: wrap nowrap wrap-reverse
     ),
+<<<<<<< HEAD
+=======
+    'gap': (
+      responsive: true,
+      property: gap,
+      class: gap,
+      values: $spacers
+    ),
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     'justify-content': (
       responsive: true,
       property: justify-content,
@@ -469,6 +512,7 @@ $utilities: map-merge(
       class: pb,
       values: $spacers
     ),
+<<<<<<< HEAD
     'gap': (
       responsive: true,
       property: gap,
@@ -487,6 +531,8 @@ $utilities: map-merge(
       class: column-gap,
       values: $spacers
     ),
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     // scss-docs-end utils-spacing
     // Text
     // scss-docs-start utils-text
@@ -525,12 +571,21 @@ $utilities: map-merge(
       property: font-weight,
       class: fw,
       values: (
+<<<<<<< HEAD
         lighter: $font-weight-lighter,
         light: $font-weight-light,
         normal: $font-weight-normal,
         medium: $font-weight-medium,
         semibold: $font-weight-semibold,
         bold: $font-weight-bold,
+=======
+        light: $font-weight-light,
+        lighter: $font-weight-lighter,
+        normal: $font-weight-normal,
+        bold: $font-weight-bold,
+        semibold: $font-weight-semibold,
+        //(C)
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         bolder: $font-weight-bolder
       )
     ),
@@ -593,12 +648,16 @@ $utilities: map-merge(
               // deprecated
               'light': $text-light,
               // (c)
+<<<<<<< HEAD
               'heading': $headings-color,
               // (c)
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
               'reset': inherit
             )
           )
       ),
+<<<<<<< HEAD
     'text-opacity': (
       css-var: true,
       class: text-opacity,
@@ -662,6 +721,9 @@ $utilities: map-merge(
       )
     ),
     // scss-docs-end utils-links
+=======
+    // scss-docs-end utils-color
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     // scss-docs-start utils-bg-color
     'background-color':
       (
@@ -684,6 +746,7 @@ $utilities: map-merge(
             )
           )
       ),
+<<<<<<< HEAD
     'bg-opacity': (
       css-var: true,
       class: bg-opacity,
@@ -700,6 +763,8 @@ $utilities: map-merge(
       class: bg,
       values: $utilities-bg-subtle
     ),
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     // scss-docs-end utils-bg-color
     'gradient':
       (
@@ -762,6 +827,7 @@ $utilities: map-merge(
         )
       ),
     // scss-docs-end utils-visibility
+<<<<<<< HEAD
     // scss-docs-start utils-zindex
     'z-index':
       (
@@ -770,6 +836,8 @@ $utilities: map-merge(
         values: $zindex-levels
       ),
     // scss-docs-end utils-zindex
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     // Custom Utilities
     // *******************************************************************************
     // scss-docs-start utils-flex-basis

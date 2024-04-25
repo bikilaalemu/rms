@@ -3,7 +3,11 @@
 @section('title', ' Vertical Layouts - Forms')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Vertical Layouts</h4>
+=======
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Vertical Layouts</h4>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 <!-- Basic Layout -->
 <div class="row">
@@ -94,4 +98,8 @@
     </div>
   </div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 @endsection

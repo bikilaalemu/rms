@@ -3,7 +3,11 @@
 @section('title', 'OffCanvas - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">UI elements /</span> Offcanvas
 </h4>
 
@@ -13,7 +17,11 @@
     <div class="row gy-3">
       <!-- Default Offcanvas -->
       <div class="col-lg-3 col-md-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium mb-3">Start (Default)</small>
+=======
+        <small class="text-light fw-semibold mb-3">Start (Default)</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasStart" aria-controls="offcanvasStart">Toggle Start</button>
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasStart" aria-labelledby="offcanvasStartLabel">
@@ -32,7 +40,11 @@
 
       <!-- End Offcanvas -->
       <div class="col-lg-3 col-md-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium mb-3">End</small>
+=======
+        <small class="text-light fw-semibold mb-3">End</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEnd" aria-controls="offcanvasEnd">Toggle End</button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasEnd" aria-labelledby="offcanvasEndLabel">
@@ -51,7 +63,11 @@
 
       <!-- Top Offcanvas -->
       <div class="col-lg-3 col-md-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium mb-3">Top</small>
+=======
+        <small class="text-light fw-semibold mb-3">Top</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle Top</button>
           <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
@@ -70,7 +86,11 @@
 
       <!-- Bottom Offcanvas -->
       <div class="col-lg-3 col-md-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium mb-3">Bottom</small>
+=======
+        <small class="text-light fw-semibold mb-3">Bottom</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Toggle Bottom</button>
           <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
@@ -96,7 +116,11 @@
     <div class="row gy-3">
       <!-- Enable Body Scrolling Offcanvas -->
       <div class="col-lg-4 col-md-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium mb-3">Enable Body Scrolling</small>
+=======
+        <small class="text-light fw-semibold mb-3">Enable Body Scrolling</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScroll" aria-controls="offcanvasScroll">Enable Body Scrolling</button>
           <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScroll" aria-labelledby="offcanvasScrollLabel">
@@ -115,7 +139,11 @@
 
       <!-- Enable backdrop (default) Offcanvas -->
       <div class="col-lg-4 col-md-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium mb-3">Enable backdrop (default)</small>
+=======
+        <small class="text-light fw-semibold mb-3">Enable backdrop (default)</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBackdrop" aria-controls="offcanvasBackdrop">Enable backdrop</button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBackdrop" aria-labelledby="offcanvasBackdropLabel">
@@ -134,7 +162,11 @@
 
       <!-- Enable Scrolling & Backdrop Offcanvas -->
       <div class="col-lg-4 col-md-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium mb-3">Enable Scrolling & Backdrop</small>
+=======
+        <small class="text-light fw-semibold mb-3">Enable Scrolling & Backdrop</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBoth" aria-controls="offcanvasBoth">Enable both scrolling & backdrop</button>
           <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasBoth" aria-labelledby="offcanvasBothLabel">

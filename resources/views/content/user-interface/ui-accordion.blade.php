@@ -3,13 +3,22 @@
 @section('title', 'Accordion - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Accordion</h4>
+=======
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Accordion</h4>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 <!-- Accordion -->
 <h5 class="mt-4">Accordion</h5>
 <div class="row">
+<<<<<<< HEAD
   <div class="col-md mb-4 mb-md-2">
     <small class="text-light fw-medium">Basic Accordion</small>
+=======
+  <div class="col-md mb-4 mb-md-0">
+    <small class="text-light fw-semibold">Basic Accordion</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     <div class="accordion mt-3" id="accordionExample">
       <div class="card accordion-item active">
         <h2 class="accordion-header" id="headingOne">
@@ -57,7 +66,11 @@
     </div>
   </div>
   <div class="col-md">
+<<<<<<< HEAD
     <small class="text-light fw-medium">Accordion Without Arrow</small>
+=======
+    <small class="text-light fw-semibold">Accordion Without Arrow</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     <div id="accordionIcon" class="accordion mt-3 accordion-without-arrow">
       <div class="accordion-item card">
         <h2 class="accordion-header text-body d-flex justify-content-between" id="accordionIconOne">

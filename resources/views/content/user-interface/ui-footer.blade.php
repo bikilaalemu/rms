@@ -3,7 +3,11 @@
 @section('title', 'Footer - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">UI elements /</span> Footer
 </h4>
 
@@ -14,7 +18,11 @@
   <footer class="footer bg-light">
     <div class="container-fluid d-flex flex-md-row flex-column justify-content-between align-items-md-center gap-1 container-p-x py-3">
       <div>
+<<<<<<< HEAD
         <a href="{{ config('variables.livePreview') }}" target="_blank" class="footer-text fw-bold">{{config('variables.templateName')}}</a> ©
+=======
+        <a href="{{ config('variables.livePreview') }}" target="_blank" class="footer-text fw-bolder">{{config('variables.templateName')}}</a> ©
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       </div>
       <div>
         <a href="{{ config('variables.licenseUrl') }}" class="footer-link me-4" target="_blank">License</a>
@@ -26,7 +34,11 @@
   </footer>
 </section>
 <!--/ Basic footer -->
+<<<<<<< HEAD
 <hr class="container-m-nx my-5" />
+=======
+<hr class="container-m-nx border-light my-5" />
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 <!-- Footer with components -->
 <section id="component-footer">
@@ -35,7 +47,11 @@
   <footer class="footer bg-light">
     <div class="container-fluid d-flex flex-md-row flex-column justify-content-between align-items-md-center gap-1 container-p-x py-3">
       <div>
+<<<<<<< HEAD
         <a href="{{ config('variables.livePreview') }}" target="_blank" class="footer-text fw-bold">{{config('variables.templateName')}}</a> ©
+=======
+        <a href="{{ config('variables.livePreview') }}" target="_blank" class="footer-text fw-bolder">{{config('variables.templateName')}}</a> ©
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       </div>
       <div>
         <div class="form-check form-control-sm footer-link me-3">
@@ -56,7 +72,11 @@
             <a class="dropdown-item" href="javascript:void(0);"><i class='bx bx-bitcoin'></i> Bitcoin</a>
           </div>
         </div>
+<<<<<<< HEAD
         <a href="javascript:void(0)" class="btn btn-sm btn-outline-danger"><i class='bx bx-log-out-circle me-1'></i>Logout</a>
+=======
+        <a href="javascript:void(0)" class="btn btn-sm btn-outline-danger"><i class='bx bx-log-out-circle'></i> Logout</a>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       </div>
     </div>
   </footer>

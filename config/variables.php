@@ -4,13 +4,17 @@
     "creatorName" => "ThemeSelection",
     "creatorUrl" => "https://themeselection.com",
     "templateName" => "Sneat",
+<<<<<<< HEAD
     "templateSuffix" => "Bootstrap 5 HTML Laravel Free Admin Template",
     "templateVersion" => "1.1.0",
     "templateFree" => true,
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     "templateDescription" => "Most Powerful & Comprehensive Bootstrap 5 HTML Admin Dashboard Template built for developers!",
     "templateKeyword" => "dashboard, bootstrap 5 dashboard, bootstrap 5 design, bootstrap 5, bootstrap 5 free, free admin template",
     "licenseUrl" => "https://themeselection.com/license/",
     "livePreview" => "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template-free/demo/",
+<<<<<<< HEAD
     "productPage" => "https://themeselection.com/item/sneat-free-bootstrap-html-laravel-admin-template/",
     "productPagePro" => "https://themeselection.com/item/sneat-bootstrap-laravel-admin-template/",
     "support" => "https://github.com/themeselection/sneat-html-laravel-admin-template-free/issues",
@@ -20,6 +24,13 @@
     "gitRepo" => "https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free.git",
     "gitRepoAccess" => "https://tools.themeselection.com/github/github-access",
     "githubFreeUrl" => "https://github.com/themeselection",
+=======
+    "productPage" => "https://themeselection.com/item/sneat-bootstrap-html-laravel-admin-template/",
+    "support" => "https://github.com/themeselection/sneat-html-laravel-admin-template-free/issues",
+    "moreThemes" => "https://themeselection.com/",
+    "documentation" => "https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/laravel-introduction.html",
+    "repository" => "https://github.com/themeselection/sneat-html-laravel-admin-template-free",
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     "facebookUrl" => "https://www.facebook.com/ThemeSelections/",
     "twitterUrl" => "https://twitter.com/Theme_Selection",
     "githubUrl" => "https://github.com/themeselection",

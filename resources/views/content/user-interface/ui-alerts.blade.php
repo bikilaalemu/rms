@@ -3,7 +3,11 @@
 @section('title', 'Alerts - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">UI elements /</span> Alerts
 </h4>
 <div class="row mb-4">

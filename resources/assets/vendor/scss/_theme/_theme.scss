@@ -52,7 +52,10 @@
           }
           .menu-sub {
             box-shadow: $menu-horizontal-menu-box-shadow;
+<<<<<<< HEAD
             z-index: 1;
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           }
         }
       }
@@ -109,12 +112,19 @@
   position: absolute;
   left: $menu-width - 1.25rem;
   border-radius: 50%;
+<<<<<<< HEAD
   opacity: 1;
+=======
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   i {
     width: 1.5rem;
     height: 1.5rem;
     transition: all $menu-animation-duration ease-in-out;
+<<<<<<< HEAD
     line-height: 1.05;
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   }
   @include media-breakpoint-down(xl) {
     display: none !important;
@@ -123,9 +133,12 @@
     }
   }
 }
+<<<<<<< HEAD
 
 .menu-vertical {
   .menu-item {
     position: relative;
   }
 }
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc

@@ -1,6 +1,7 @@
 {
   "name": "laravel/laravel",
   "type": "project",
+<<<<<<< HEAD
   "description": "The skeleton application for the Laravel framework.",
   "keywords": [
     "laravel",
@@ -22,6 +23,29 @@
     "nunomaduro/collision": "^7.0",
     "phpunit/phpunit": "^10.1",
     "spatie/laravel-ignition": "^2.0"
+=======
+  "description": "The Laravel Framework.",
+  "keywords": [
+    "framework",
+    "laravel"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.0.2",
+    "fruitcake/laravel-cors": "^2.0.5",
+    "guzzlehttp/guzzle": "^7.2",
+    "laravel/framework": "^9.0",
+    "laravel/sanctum": "^2.14",
+    "laravel/tinker": "^2.7"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.9.1",
+    "laravel/sail": "^1.0.1",
+    "mockery/mockery": "^1.4.4",
+    "nunomaduro/collision": "^6.1",
+    "phpunit/phpunit": "^9.5.10",
+    "spatie/laravel-ignition": "^1.0"
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   },
   "autoload": {
     "psr-4": {
@@ -58,6 +82,7 @@
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
+<<<<<<< HEAD
     "sort-packages": true,
     "allow-plugins": {
       "pestphp/pest-plugin": true,
@@ -67,3 +92,10 @@
   "minimum-stability": "dev",
   "prefer-stable": true
 }
+=======
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc

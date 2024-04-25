@@ -10,7 +10,11 @@
 <link rel="stylesheet" href="{{ asset(mix('assets/vendor/css/core.css')) }}" />
 <link rel="stylesheet" href="{{ asset(mix('assets/vendor/css/theme-default.css')) }}" />
 <link rel="stylesheet" href="{{ asset(mix('assets/css/demo.css')) }}" />
+<<<<<<< HEAD
 <!-- Vendors CSS -->
+=======
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 <link rel="stylesheet" href="{{ asset(mix('assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')) }}" />
 
 <!-- Vendor Styles -->

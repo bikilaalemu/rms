@@ -18,14 +18,23 @@
           <!-- Logo -->
           <div class="app-brand justify-content-center">
             <a href="{{url('/')}}" class="app-brand-link gap-2">
+<<<<<<< HEAD
               <span class="app-brand-logo demo">@include('_partials.macros',["width"=>25,"withbg"=>'var(--bs-primary)'])</span>
               <span class="app-brand-text demo text-body fw-bold">{{ config('variables.templateName') }}</span>
+=======
+              <span class="app-brand-logo demo">@include('_partials.macros',['width'=>25,'withbg' => "#696cff"])</span>
+              <span class="app-brand-text demo text-body fw-bolder">{{ config('variables.templateName') }}</span>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             </a>
           </div>
           <!-- /Logo -->
           <h4 class="mb-2">Forgot Password? 🔒</h4>
           <p class="mb-4">Enter your email and we'll send you instructions to reset your password</p>
+<<<<<<< HEAD
           <form id="formAuthentication" class="mb-3" action="{{url('/')}}" method="GET">
+=======
+          <form id="formAuthentication" class="mb-3" action="javascript:void(0)" method="GET">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
               <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" autofocus>

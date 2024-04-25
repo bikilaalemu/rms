@@ -31,6 +31,7 @@
 // Tab and pills style
 .nav-tabs,
 .nav-pills {
+<<<<<<< HEAD
   .nav-link {
     display: inline-flex;
     align-items: center;
@@ -43,6 +44,8 @@
     }
   }
 
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   &:not(.nav-fill):not(.nav-justified) .nav-link {
     width: 100%;
   }
@@ -186,7 +189,10 @@
   }
   .nav-link {
     text-align: right;
+<<<<<<< HEAD
     justify-content: end;
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   }
 
   .nav-tabs {
@@ -260,7 +266,10 @@
   }
   .nav-link {
     text-align: left;
+<<<<<<< HEAD
     justify-content: start;
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   }
   .nav-tabs {
     ~ .tab-content {

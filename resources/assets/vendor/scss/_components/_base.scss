@@ -149,8 +149,14 @@ body {
   .btn-buy-now {
     position: fixed;
     bottom: 3rem;
+<<<<<<< HEAD
     right: $container-padding-x;
     z-index: $zindex-menu-fixed;
+=======
+
+    right: $container-padding-x;
+    z-index: $zindex-notification;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     box-shadow: 0 1px 20px 1px $danger;
     &:hover {
       box-shadow: none;

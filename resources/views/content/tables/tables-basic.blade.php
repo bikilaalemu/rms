@@ -3,7 +3,11 @@
 @section('title', 'Tables - Basic Tables')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">Tables /</span> Basic Tables
 </h4>
 
@@ -23,7 +27,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -50,7 +58,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -77,7 +89,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -104,7 +120,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -154,7 +174,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -181,7 +205,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -208,7 +236,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -235,7 +267,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td class="rounded-start-bottom"><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -251,7 +287,11 @@
             </ul>
           </td>
           <td><span class="badge bg-label-warning me-1">Pending</span></td>
+<<<<<<< HEAD
           <td class="rounded-end-bottom">
+=======
+          <td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="dropdown">
               <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
               <div class="dropdown-menu">
@@ -285,7 +325,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -312,7 +356,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -339,7 +387,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -366,7 +418,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -416,7 +472,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -443,7 +503,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -470,7 +534,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -497,7 +565,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -547,7 +619,11 @@
       </thead>
       <tbody>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -574,7 +650,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -601,7 +681,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -628,7 +712,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -657,11 +745,19 @@
       </tbody>
       <tfoot class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <th class="rounded-start-bottom">Project</th>
           <th>Client</th>
           <th>Users</th>
           <th>Status</th>
           <th class="rounded-end-bottom">Actions</th>
+=======
+          <th>Project</th>
+          <th>Client</th>
+          <th>Users</th>
+          <th>Status</th>
+          <th>Actions</th>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         </tr>
       </tfoot>
     </table>
@@ -688,7 +784,11 @@
       </thead>
       <tbody>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -715,7 +815,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -742,7 +846,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -769,7 +877,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -819,7 +931,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -846,7 +962,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -873,7 +993,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -900,7 +1024,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -951,7 +1079,11 @@
         </thead>
         <tbody>
           <tr>
+<<<<<<< HEAD
             <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <td>Albert Cook</td>
             <td>
               <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -978,7 +1110,11 @@
             </td>
           </tr>
           <tr>
+<<<<<<< HEAD
             <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+            <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <td>Barry Hunter</td>
             <td>
               <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1005,7 +1141,11 @@
             </td>
           </tr>
           <tr>
+<<<<<<< HEAD
             <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+            <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <td>Trevor Baker</td>
             <td>
               <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1032,7 +1172,11 @@
             </td>
           </tr>
           <tr>
+<<<<<<< HEAD
             <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+            <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <td>Jerry Milton</td>
             <td>
               <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1083,7 +1227,11 @@
       </thead>
       <tbody>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1110,7 +1258,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1137,7 +1289,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1164,7 +1320,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1214,7 +1374,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1241,7 +1405,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1268,7 +1436,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1295,7 +1467,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1346,7 +1522,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1373,7 +1553,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1400,7 +1584,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1427,7 +1615,11 @@
           </td>
         </tr>
         <tr>
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1478,7 +1670,11 @@
       </thead>
       <tbody class="table-border-bottom-0">
         <tr class="table-default">
+<<<<<<< HEAD
           <td><i class="bx bxl-sketch bx-sm text-warning me-3"></i> <span class="fw-medium">Sketch Project</span></td>
+=======
+          <td><i class="fab fa-sketch fa-lg text-warning me-3"></i> <strong>Sketch Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Ronnie Shane</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1505,7 +1701,11 @@
           </td>
         </tr>
         <tr class="table-active">
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Barry Hunter</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1532,7 +1732,11 @@
           </td>
         </tr>
         <tr class="table-primary">
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Albert Cook</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1559,7 +1763,11 @@
           </td>
         </tr>
         <tr class="table-secondary">
+<<<<<<< HEAD
           <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+          <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Trevor Baker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1586,7 +1794,11 @@
           </td>
         </tr>
         <tr class="table-success">
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1613,7 +1825,11 @@
           </td>
         </tr>
         <tr class="table-danger">
+<<<<<<< HEAD
           <td><i class="bx bxl-sketch bx-sm text-warning me-3"></i> <span class="fw-medium">Sketch Project</span></td>
+=======
+          <td><i class="fab fa-sketch fa-lg text-warning me-3"></i> <strong>Sketch Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Sarah Banks</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1640,7 +1856,11 @@
           </td>
         </tr>
         <tr class="table-warning">
+<<<<<<< HEAD
           <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Custom</span></td>
+=======
+          <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Custom</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Ted Richer</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1667,7 +1887,11 @@
           </td>
         </tr>
         <tr class="table-info">
+<<<<<<< HEAD
           <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Latest Bootstrap</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Latest Bootstrap</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Perry Parker</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1694,7 +1918,11 @@
           </td>
         </tr>
         <tr class="table-light">
+<<<<<<< HEAD
           <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular UI</span></td>
+=======
+          <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular UI</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Ana Bell</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1721,7 +1949,11 @@
           </td>
         </tr>
         <tr class="table-dark">
+<<<<<<< HEAD
           <td class="rounded-start-bottom"><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap UI</span></td>
+=======
+          <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap UI</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
           <td>Jerry Milton</td>
           <td>
             <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1737,7 +1969,11 @@
             </ul>
           </td>
           <td><span class="badge bg-label-success me-1">Completed</span></td>
+<<<<<<< HEAD
           <td class="rounded-end-bottom">
+=======
+          <td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
             <div class="dropdown">
               <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown"><i class="bx bx-dots-vertical-rounded"></i></button>
               <div class="dropdown-menu">
@@ -1770,7 +2006,11 @@
     </thead>
     <tbody class="table-border-bottom-0">
       <tr>
+<<<<<<< HEAD
         <td><i class="bx bxl-angular bx-sm text-danger me-3"></i> <span class="fw-medium">Angular Project</span></td>
+=======
+        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <td>Albert Cook</td>
         <td>
           <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1797,7 +2037,11 @@
         </td>
       </tr>
       <tr>
+<<<<<<< HEAD
         <td><i class="bx bxl-react bx-sm text-info me-3"></i> <span class="fw-medium">React Project</span></td>
+=======
+        <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>React Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <td>Barry Hunter</td>
         <td>
           <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1824,7 +2068,11 @@
         </td>
       </tr>
       <tr>
+<<<<<<< HEAD
         <td><i class="bx bxl-vuejs bx-sm text-success me-3"></i> <span class="fw-medium">VueJs Project</span></td>
+=======
+        <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>VueJs Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <td>Trevor Baker</td>
         <td>
           <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1851,7 +2099,11 @@
         </td>
       </tr>
       <tr>
+<<<<<<< HEAD
         <td><i class="bx bxl-bootstrap bx-sm text-primary me-3"></i> <span class="fw-medium">Bootstrap Project</span></td>
+=======
+        <td><i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong></td>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <td>Jerry Milton</td>
         <td>
           <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
@@ -1903,7 +2155,11 @@
           <th>Table heading</th>
         </tr>
       </thead>
+<<<<<<< HEAD
       <tbody class="table-border-bottom-0">
+=======
+      <tbody>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <tr>
           <th scope="row">1</th>
           <td>Table cell</td>

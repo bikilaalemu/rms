@@ -1,6 +1,10 @@
 @extends('layouts/contentNavbarLayout')
 
+<<<<<<< HEAD
 @section('title', 'Dashboard - Analytics')
+=======
+@section('title', 'Dashboard - PMS')
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 @section('vendor-style')
 <link rel="stylesheet" href="{{asset('assets/vendor/libs/apex-charts/apex-charts.css')}}">
@@ -15,6 +19,7 @@
 @endsection
 
 @section('content')
+<<<<<<< HEAD
 <div class="row">
   <div class="col-lg-8 mb-4 order-0">
     <div class="card">
@@ -458,4 +463,8 @@
   </div>
   <!--/ Transactions -->
 </div>
+=======
+
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 @endsection

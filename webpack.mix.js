@@ -24,9 +24,14 @@ mix.options({
 mix.webpackConfig({
   output: {
     publicPath: process.env.ASSET_URL || undefined,
+<<<<<<< HEAD
     libraryTarget: 'umd'
   },
 
+=======
+    libraryTarget: 'window'
+  },
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   plugins: [
     new EnvironmentPlugin({
       // Application's public url
@@ -58,6 +63,10 @@ mix.webpackConfig({
   externals: {
     jquery: 'jQuery',
     moment: 'moment',
+<<<<<<< HEAD
+=======
+    'datatables.net': '$.fn.dataTable',
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     jsdom: 'jsdom',
     velocity: 'Velocity',
     hammer: 'Hammer',
@@ -109,6 +118,11 @@ mixAssetsDir('vendor/libs/**/!(_)*.scss', (src, dest) =>
   mix.sass(src, dest.replace(/\.scss$/, '.css'), { sassOptions })
 );
 mixAssetsDir('vendor/libs/**/*.{png,jpg,jpeg,gif}', (src, dest) => mix.copy(src, dest));
+<<<<<<< HEAD
+=======
+// Copy task for form validation plugin as premium plugin don't have npm package
+mixAssetsDir('vendor/libs/formvalidation/dist', (src, dest) => mix.copyDirectory(src, dest));
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 // Fonts
 mixAssetsDir('vendor/fonts/*/*', (src, dest) => mix.copy(src, dest));
@@ -126,7 +140,11 @@ mixAssetsDir('js/**/*.js', (src, dest) => mix.scripts(src, dest));
 mixAssetsDir('css/**/*.css', (src, dest) => mix.copy(src, dest));
 
 mix.copy('node_modules/boxicons/fonts/*', 'public/assets/vendor/fonts/boxicons');
+<<<<<<< HEAD
 //mix.copy('resources/assets/vendor/fonts/boxicons.css', 'public/assets/vendor/fonts/boxicons.css');
+=======
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 mix.version();
 
 /*
@@ -137,7 +155,11 @@ mix.version();
  | BrowserSync can automatically monitor your files for changes, and inject your changes into the browser without requiring a manual refresh.
  | You may enable support for this by calling the mix.browserSync() method:
  | Make Sure to run `php artisan serve` and `yarn watch` command to run Browser Sync functionality
+<<<<<<< HEAD
  | Refer official documentation for more information: https://laravel.com/docs/10.x/mix#browsersync-reloading
+=======
+ | Refer official documentation for more information: https://laravel.com/docs/9.x/mix#browsersync-reloading
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
  */
 
 mix.browserSync('http://127.0.0.1:8000/');

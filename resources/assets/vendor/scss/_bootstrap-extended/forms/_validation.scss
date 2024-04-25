@@ -50,7 +50,12 @@ form {
     &.selectpicker {
       &.is-invalid {
         ~ .btn {
+<<<<<<< HEAD
           border-color: $form-feedback-invalid-color !important;
+=======
+          border-color: 1px solid $form-feedback-invalid-color;
+          border-color: $form-feedback-invalid-color;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         }
       }
     }

@@ -11,7 +11,11 @@
   }
 
   &.active {
+<<<<<<< HEAD
     font-weight: $font-weight-medium;
+=======
+    font-weight: $font-weight-semibold;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     &::before {
       font-weight: $font-weight-normal;
     }
@@ -36,12 +40,20 @@
   }
 }
 .breadcrumb-style1 .breadcrumb-item + .breadcrumb-item::before {
+<<<<<<< HEAD
   content: '\ea50';
+=======
+  content: '\ecb3';
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   font-size: 1.125rem;
   line-height: 1.4;
 }
 .breadcrumb-style2 .breadcrumb-item + .breadcrumb-item::before {
+<<<<<<< HEAD
   content: '\ebe7';
+=======
+  content: '\ee4a';
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   font-size: $font-size-lg;
   line-height: 1.35rem;
 }

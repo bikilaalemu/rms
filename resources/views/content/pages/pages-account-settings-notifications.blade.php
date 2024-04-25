@@ -3,7 +3,11 @@
 @section('title', 'Account settings - Pages')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">Account Settings /</span> Notifications
 </h4>
 
@@ -18,7 +22,11 @@
       <!-- Notifications -->
       <h5 class="card-header">Recent Devices</h5>
       <div class="card-body">
+<<<<<<< HEAD
         <span>We need permission from your browser to show notifications. <span class="notificationRequest"><span class="fw-medium">Request Permission</span></span></span>
+=======
+        <span>We need permission from your browser to show notifications. <span class="notificationRequest"><strong>Request Permission</strong></span></span>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="error"></div>
       </div>
       <div class="table-responsive">

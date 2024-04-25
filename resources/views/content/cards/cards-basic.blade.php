@@ -7,7 +7,11 @@
 @endsection
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4"><span class="text-muted fw-light">UI Elements /</span> Cards Basic</h4>
+=======
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI Elements /</span> Cards Basic</h4>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 <!-- Examples -->
 <div class="row mb-5">
@@ -42,7 +46,11 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+<<<<<<< HEAD
         <img class="img-fluid d-flex mx-auto my-4 rounded" src="{{asset('assets/img/elements/4.jpg')}}" alt="Card image cap" />
+=======
+        <img class="img-fluid d-flex mx-auto my-4" src="{{asset('assets/img/elements/4.jpg')}}" alt="Card image cap" />
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <p class="card-text">Bear claw sesame snaps gummies chocolate.</p>
         <a href="javascript:void(0);" class="card-link">Card link</a>
         <a href="javascript:void(0);" class="card-link">Another link</a>

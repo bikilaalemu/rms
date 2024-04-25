@@ -19,7 +19,11 @@
   text-transform: lowercase;
 }
 
+<<<<<<< HEAD
 /* ! For .layout-navbar-fixed added fix padding top to .layout-page */
+=======
+/* ! For .layout-navbar-fixed added fix padding top tpo .layout-page */
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 /* Detached navbar */
 .layout-navbar-fixed .layout-wrapper:not(.layout-horizontal):not(.layout-without-menu) .layout-page {
   padding-top: 76px !important;
@@ -28,10 +32,13 @@
 .layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
   padding-top: 64px !important;
 }
+<<<<<<< HEAD
 .docs-page .layout-navbar-fixed.layout-wrapper:not(.layout-without-menu) .layout-page,
 .docs-page .layout-menu-fixed.layout-wrapper:not(.layout-without-menu) .layout-page {
   padding-top: 62px !important;
 }
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 /* Navbar page z-index issue solution */
 .content-wrapper .navbar {
@@ -85,6 +92,7 @@
   display: block !important;
 }
 
+<<<<<<< HEAD
 /* Dropdown buttons going out of small screens */
 @media (max-width: 576px) {
   #dropdown-variation-demo .btn-group .text-truncate {
@@ -98,6 +106,8 @@
   }
 }
 
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 /*
 * Layout demo
 ******************************************************************************/

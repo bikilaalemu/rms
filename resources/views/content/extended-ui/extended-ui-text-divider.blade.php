@@ -3,7 +3,11 @@
 @section('title', 'Text Divider - Extended UI')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">Extended UI /</span> Text Divider
 </h4>
 
@@ -133,5 +137,9 @@
     </div>
   </div>
   <!-- /Icons -->
+<<<<<<< HEAD
 </div>
 @endsection
+=======
+</div @endsection
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc

@@ -115,10 +115,13 @@
       ) !important;
     }
   }
+<<<<<<< HEAD
   // ? Match toggle border to menu bg belwo xl screen
   @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
     .app-brand .layout-menu-toggle {
       border: 7px solid map-get($colors, bg) !important;
     }
   }
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 }

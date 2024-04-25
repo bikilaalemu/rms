@@ -32,7 +32,11 @@ $primary-color: #696cff;
   $active-bg: $white
 );
 // menu shadow
+<<<<<<< HEAD
 @include media-breakpoint-up($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-up(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   .bg-menu-theme.menu-vertical {
     box-shadow: 0 0.125rem 0.375rem 0 rgba(rgba-to-hex($gray-500, $rgba-to-hex-bg), 0.12);
   }

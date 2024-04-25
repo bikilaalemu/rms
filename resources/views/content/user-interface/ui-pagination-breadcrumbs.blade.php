@@ -3,7 +3,11 @@
 @section('title', 'Pagination and breadcrumbs - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">UI elements /</span> Pagination and breadcrumbs
 </h4>
 
@@ -12,8 +16,13 @@
   <!-- Basic Pagination -->
   <div class="card-body">
     <div class="row">
+<<<<<<< HEAD
       <div class="col-lg-6">
         <small class="text-light fw-medium">Basic</small>
+=======
+      <div class="col">
+        <small class="text-light fw-semibold">Basic</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <!-- Basic Pagination -->
           <nav aria-label="Page navigation">
@@ -59,7 +68,11 @@
   <div class="card-body">
     <div class="row">
       <div class="col-lg-4">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Sizes</small>
+=======
+        <small class="text-light fw-semibold">Sizes</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <nav aria-label="Page navigation">
             <ul class="pagination pagination-sm">
@@ -139,7 +152,11 @@
         </div>
       </div>
       <div class="col-lg-8">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Alignments</small>
+=======
+        <small class="text-light fw-semibold">Alignments</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing">
           <nav aria-label="Page navigation">
             <ul class="pagination">

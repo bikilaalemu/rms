@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 * text eol=lf
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 * text=auto
 
 *.blade.php diff=html
@@ -9,6 +12,7 @@
 
 /.github export-ignore
 CHANGELOG.md export-ignore
+<<<<<<< HEAD
 
 
 ## GITATTRIBUTES FOR WEB PROJECTS
@@ -218,3 +222,5 @@ Procfile          text
 
 # Ignore files (like .npmignore or .gitignore)
 *.*ignore         text
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc

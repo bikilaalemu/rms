@@ -3,7 +3,11 @@
 @section('title', 'Collapse - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Collapse</h4>
+=======
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Collapse</h4>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 <!-- Collapse -->
 <h5>Collapse</h5>

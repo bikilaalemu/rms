@@ -18,9 +18,13 @@
     opacity: 0;
   }
   .app-brand .layout-menu-toggle {
+<<<<<<< HEAD
     // display: none !important;
     opacity: 0;
     left: calc(#{$menu-collapsed-width} - 1.5rem);
+=======
+    display: none !important;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   }
 
   .app-brand-img {

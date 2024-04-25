@@ -2,6 +2,7 @@
 // *******************************************************************************
 
 // Basic
+<<<<<<< HEAD
 @mixin button-variant(
   $background: null,
   $border: null,
@@ -10,6 +11,9 @@
   $active-background: null,
   $active-border: null
 ) {
+=======
+@mixin button-variant($background: null, $border: null, $active-background: null, $active-border: null) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 }
 @mixin template-button-variant($parent, $background, $color: null, $border: null) {
   $background: $background;
@@ -50,10 +54,17 @@
     box-shadow: 0 0.125rem 0.25rem 0 rgba($background, 0.4);
 
     &:hover {
+<<<<<<< HEAD
       color: $hover-color !important;
       @include gradient-bg($hover-background !important);
       border-color: $hover-border !important;
       transform: $btn-hover-transform !important;
+=======
+      color: $hover-color;
+      @include gradient-bg($hover-background);
+      border-color: $hover-border;
+      transform: $btn-hover-transform;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     }
 
     .btn-check:focus + &,
@@ -70,6 +81,7 @@
     .btn-check:active + &,
     &:active,
     &.active,
+<<<<<<< HEAD
     &.show.dropdown-toggle,
     .show > &.dropdown-toggle {
       color: $active-color !important;
@@ -77,6 +89,14 @@
       // Remove CSS gradients if they're enabled
       background-image: if($enable-gradients, none !important, null);
       border-color: $active-border !important;
+=======
+    .show > &.dropdown-toggle {
+      color: $active-color;
+      background-color: $active-background;
+      // Remove CSS gradients if they're enabled
+      background-image: if($enable-gradients, none, null);
+      border-color: $active-border;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
       &:focus {
         box-shadow: none;
@@ -85,6 +105,7 @@
 
     &.disabled,
     &:disabled {
+<<<<<<< HEAD
       color: $disabled-color !important;
       background-color: $disabled-background !important;
       // Remove CSS gradients if they're enabled
@@ -95,6 +116,13 @@
   }
 
   // Button groups
+=======
+      box-shadow: none;
+    }
+  }
+
+  //? Button groups border (Uncomment if needed)
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   // .btn-group #{$parent},
   // .input-group #{$parent} {
   //   border-right: $input-btn-border-width solid $active-background;
@@ -131,11 +159,19 @@
     background: transparent;
 
     &:hover {
+<<<<<<< HEAD
       color: $color-hover !important;
       background-color: $hover-background !important;
       border-color: $hover-background !important;
       box-shadow: 0 0.125rem 0.25rem 0 rgba($background, 0.4) !important;
       transform: $btn-hover-transform !important;
+=======
+      color: $color-hover;
+      background-color: $hover-background;
+      border-color: $hover-background;
+      box-shadow: 0 0.125rem 0.25rem 0 rgba($background, 0.4);
+      transform: $btn-hover-transform;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     }
 
     .btn-check:focus + &,
@@ -152,9 +188,15 @@
     &:active,
     &.active,
     &.dropdown-toggle.show {
+<<<<<<< HEAD
       color: $color-hover !important;
       background-color: $active-background !important;
       border-color: $active-background !important;
+=======
+      color: $color-hover;
+      background-color: $active-background;
+      border-color: $active-background;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       &:focus {
         box-shadow: none;
       }
@@ -162,9 +204,13 @@
 
     &.disabled,
     &:disabled {
+<<<<<<< HEAD
       box-shadow: none !important;
       color: $color !important;
       background-color: transparent !important;
+=======
+      box-shadow: none;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     }
   }
 

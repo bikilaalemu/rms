@@ -143,7 +143,11 @@
     }
   }
 
+<<<<<<< HEAD
   @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
+=======
+  @include media-breakpoint-down(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     .navbar-nav {
       .nav-item.dropdown {
         .dropdown-menu {
@@ -175,7 +179,11 @@
 }
 
 // * Navbar require high z-index as we use z-index for menu slide-out for below large screen
+<<<<<<< HEAD
 @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-down(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   .layout-navbar {
     z-index: $zindex-menu-fixed;
   }
@@ -186,9 +194,13 @@
 .layout-menu {
   position: relative;
   flex: 1 0 auto;
+<<<<<<< HEAD
   a:focus-visible {
     outline: none;
   }
+=======
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   .menu {
     transform: translate3d(0, 0, 0);
   }
@@ -218,7 +230,11 @@
 // * Fixed and fixed off-canvas layout (Layout Fixed)
 // *******************************************************************************
 
+<<<<<<< HEAD
 @include media-breakpoint-up($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-up(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   // Menu
 
   .layout-menu-fixed,
@@ -253,7 +269,11 @@ html:not(.layout-footer-fixed) .content-wrapper {
   padding-bottom: 0 !important;
 }
 
+<<<<<<< HEAD
 @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-down(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   .layout-menu-fixed .layout-wrapper.layout-navbar-full .layout-menu,
   .layout-menu-fixed-offcanvas .layout-wrapper.layout-navbar-full .layout-menu {
     top: 0 !important;
@@ -276,7 +296,11 @@ html:not(.layout-footer-fixed) .content-wrapper {
   }
 }
 
+<<<<<<< HEAD
 @include media-breakpoint-up($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-up(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   // Fix navbar within Navbar Full layout in fixed mode
   .layout-menu-fixed .layout-navbar-full .layout-navbar,
   .layout-menu-fixed-offcanvas .layout-navbar-full .layout-navbar {
@@ -306,7 +330,11 @@ html:not(.layout-footer-fixed) .content-wrapper {
   right: 0;
 }
 
+<<<<<<< HEAD
 @include media-breakpoint-up($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-up(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   // Fixed footer - Menu expanded
   .layout-footer-fixed:not(.layout-menu-collapsed) {
     .layout-wrapper:not(.layout-without-menu) .content-footer {
@@ -318,7 +346,11 @@ html:not(.layout-footer-fixed) .content-wrapper {
 // * Small screens layout
 // *******************************************************************************
 
+<<<<<<< HEAD
 @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-down(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   .layout-menu {
     position: fixed !important;
     top: 0 !important;
@@ -381,7 +413,11 @@ html:not(.layout-footer-fixed) .content-wrapper {
   z-index: $zindex-fixed;
 }
 
+<<<<<<< HEAD
 @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-down(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   .layout-menu {
     z-index: $zindex-layout-mobile;
   }
@@ -391,7 +427,11 @@ html:not(.layout-footer-fixed) .content-wrapper {
   }
 }
 
+<<<<<<< HEAD
 @include media-breakpoint-up($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-up(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   // Default expanded
 
   // Navbar full layout
@@ -452,7 +492,11 @@ html:not(.layout-footer-fixed) .content-wrapper {
   }
 }
 
+<<<<<<< HEAD
 @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
+=======
+@include media-breakpoint-down(xl) {
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   .layout-transitioning {
     .layout-overlay {
       animation: menuAnimation $menu-animation-duration;
@@ -465,10 +509,15 @@ html:not(.layout-footer-fixed) .content-wrapper {
   }
 }
 
+<<<<<<< HEAD
 @include media-breakpoint-up($menu-collapsed-layout-breakpoint) {
   .layout-menu-collapsed:not(.layout-transitioning):not(.layout-menu-offcanvas):not(.layout-menu-fixed):not(
       .layout-menu-fixed-offcanvas
     )
+=======
+@include media-breakpoint-up(xl) {
+  .layout-menu-collapsed:not(.layout-transitioning):not(.layout-menu-offcanvas):not(.layout-menu-fixed):not(.layout-menu-fixed-offcanvas)
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
     .layout-menu {
     transition-duration: $menu-animation-duration;
     transition-property: margin-left, margin-right, width;

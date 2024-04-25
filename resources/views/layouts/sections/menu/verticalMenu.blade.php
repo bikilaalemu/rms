@@ -4,18 +4,28 @@
   <div class="app-brand demo">
     <a href="{{url('/')}}" class="app-brand-link">
       <span class="app-brand-logo demo">
+<<<<<<< HEAD
         @include('_partials.macros',["width"=>25,"withbg"=>'var(--bs-primary)'])
       </span>
       <span class="app-brand-text demo menu-text fw-bold ms-2">{{config('variables.templateName')}}</span>
     </a>
 
     <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+=======
+      
+      </span>
+      <span class="app-brand-text demo menu-text fw-bold ms-2">PMS</span>
+    </a>
+
+    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-autod-block d-xl-none">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       <i class="bx bx-chevron-left bx-sm align-middle"></i>
     </a>
   </div>
 
   <div class="menu-inner-shadow"></div>
 
+<<<<<<< HEAD
   <ul class="menu-inner py-1">
     @foreach ($menuData[0]->menu as $menu)
 
@@ -73,6 +83,15 @@
     </li>
     @endif
     @endforeach
+=======
+  
+    <ul class="menu-inner py-1">
+   <li class="menu-header small text-uppercase"> <span class="menu-header-text">Menu</span></li>
+   <li class="menu-header small text-uppercase"> <span class="menu-header-text">Menu</span></li>
+   <li class="menu-header small text-uppercase"> <span class="menu-header-text">Menu</span></li>
+   <li class="menu-header small text-uppercase"> <span class="menu-header-text">Menu</span></li>
+   <li class="menu-header small text-uppercase"> <span class="menu-header-text">Menu</span></li>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   </ul>
 
 </aside>

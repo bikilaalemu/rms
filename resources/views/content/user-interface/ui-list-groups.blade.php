@@ -3,7 +3,11 @@
 @section('title', 'List groups - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4">
+=======
+<h4 class="fw-bold py-3 mb-4">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   <span class="text-muted fw-light">UI elements /</span> List groups
 </h4>
 
@@ -13,7 +17,11 @@
     <div class="row">
       <!-- Basic List group -->
       <div class="col-lg-6 mb-4 mb-xl-0">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Basic</small>
+=======
+        <small class="text-light fw-semibold">Basic</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <div class="list-group">
             <a href="javascript:void(0);" class="list-group-item list-group-item-action active">Bear claw cake biscuit</a>
@@ -27,7 +35,11 @@
       <!--/ Basic List group -->
       <!-- List group with Badges & Pills -->
       <div class="col-lg-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium">With Bagdes & Pills</small>
+=======
+        <small class="text-light fw-semibold">With Bagdes & Pills</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">Soufflé
@@ -55,7 +67,11 @@
     <div class="row">
       <!-- List group Flush (Without main border) -->
       <div class="col-lg-6 mb-4 mb-xl-0">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Flush</small>
+=======
+        <small class="text-light fw-semibold">Flush</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <div class="list-group list-group-flush">
             <a href="javascript:void(0);" class="list-group-item list-group-item-action">Bear claw cake biscuit</a>
@@ -69,7 +85,11 @@
       <!--/ List group Flush (Without main border) -->
       <!-- List group Icons -->
       <div class="col-lg-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium">With Icons</small>
+=======
+        <small class="text-light fw-semibold">With Icons</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <ul class="list-group">
             <li class="list-group-item d-flex align-items-center">
@@ -103,7 +123,11 @@
     <div class="row">
       <!-- List group Numbered -->
       <div class="col-lg-6 mb-4 mb-xl-0">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Numbered</small>
+=======
+        <small class="text-light fw-semibold">Numbered</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <ol class="list-group list-group-numbered">
             <li class="list-group-item">Bear claw cake biscuit</li>
@@ -117,7 +141,11 @@
       <!--/ List group Numbered -->
       <!-- List group checkbox -->
       <div class="col-lg-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium">List Group With Checkbox</small>
+=======
+        <small class="text-light fw-semibold">List Group With Checkbox</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <div class="list-group">
             <label class="list-group-item">
@@ -151,7 +179,11 @@
     <div class="row">
       <!-- Contextual List group -->
       <div class="col-lg-6 mb-4 mb-xl-0">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Contextual classes</small>
+=======
+        <small class="text-light fw-semibold">Contextual classes</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <ul class="list-group">
             <li class="list-group-item list-group-item-primary">Primary list group item</li>
@@ -167,7 +199,11 @@
       <!--/ Contextual List group -->
       <!-- Custom content with heading -->
       <div class="col-lg-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Custom content</small>
+=======
+        <small class="text-light fw-semibold">Custom content</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <div class="list-group">
             <a href="javascript:void(0);" class="list-group-item list-group-item-action flex-column align-items-start active">
@@ -208,7 +244,11 @@
     <div class="row">
       <!-- Custom content with heading -->
       <div class="col-lg-6 mb-4 mb-xl-0">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Vertical</small>
+=======
+        <small class="text-light fw-semibold">Vertical</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="mt-3">
           <div class="row">
             <div class="col-md-4 col-12 mb-3 mb-md-0">
@@ -255,7 +295,11 @@
         </div>
       </div>
       <div class="col-lg-6">
+<<<<<<< HEAD
         <small class="text-light fw-medium">Horizontal</small>
+=======
+        <small class="text-light fw-semibold">Horizontal</small>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <div class="demo-inline-spacing mt-3">
           <div class="list-group list-group-horizontal-md text-md-center">
             <a class="list-group-item list-group-item-action active" id="home-list-item" data-bs-toggle="list" href="#horizontal-home">Home</a>

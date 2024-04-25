@@ -10,6 +10,7 @@
   .light-style {
     .apexcharts-canvas {
       .apexcharts-tooltip {
+<<<<<<< HEAD
         background: light.$card-bg;
         border-color: light.$border-color;
         box-shadow: light.$popover-box-shadow;
@@ -26,13 +27,26 @@
         }
         .apexcharts-tooltip-title {
           font-weight: light.$headings-font-weight;
+=======
+        background: light.$white;
+        border-color: light.$border-color;
+        box-shadow: light.$popover-box-shadow;
+        .apexcharts-tooltip-title {
+          background: light.$white;
+          border-color: light.$border-color;
+          font-family: light.$font-family-base !important;
+          font-weight: 600;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         }
       }
       .apexcharts-xaxistooltip,
       .apexcharts-yaxistooltip {
         background: light.$body-bg;
         border-color: light.$border-color;
+<<<<<<< HEAD
         color: light.$headings-color;
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         &.apexcharts-xaxistooltip-bottom,
         &.apexcharts-yaxistooltip-bottom {
           &:after {
@@ -80,6 +94,7 @@
     }
   }
 }
+<<<<<<< HEAD
 // bar charts with radius hover fix
 #orderStatisticsChart,
 #totalRevenueChart,
@@ -89,3 +104,5 @@
     opacity: 0;
   }
 }
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc

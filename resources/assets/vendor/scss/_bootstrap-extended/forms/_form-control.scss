@@ -1,5 +1,6 @@
 // Form control
 // *******************************************************************************
+<<<<<<< HEAD
 // form input placeholder animation
 .form-control {
   &::placeholder,
@@ -11,5 +12,15 @@
     &:not([disabled]):not([focus]) {
       border-color: $input-border-hover-color;
     }
+=======
+
+.form-control {
+  &::placeholder {
+    transition: $input-placeholder-transition;
+  }
+  &:focus::placeholder {
+    transform: $input-placeholder-transform;
+    transition: $input-placeholder-transition;
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
   }
 }

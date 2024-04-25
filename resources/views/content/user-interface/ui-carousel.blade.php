@@ -3,7 +3,11 @@
 @section('title', 'Carousel - UI elements')
 
 @section('content')
+<<<<<<< HEAD
 <h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Carousel</h4>
+=======
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Carousel</h4>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 
 <div class="row">
   <!-- Bootstrap carousel -->
@@ -11,11 +15,19 @@
     <h5 class="my-4">Bootstrap carousel</h5>
 
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+<<<<<<< HEAD
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+=======
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
+      </ol>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="{{asset('assets/img/elements/13.jpg')}}" alt="First slide" />
@@ -53,12 +65,21 @@
   <div class="col-md">
     <h5 class="my-4">Bootstrap crossfade carousel (dark)</h5>
 
+<<<<<<< HEAD
     <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+=======
+    <div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExample-cf" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExample-cf" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExample-cf" data-bs-slide-to="2"></li>
+      </ol>
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="{{asset('assets/img/elements/18.jpg')}}" alt="First slide" />
@@ -82,15 +103,27 @@
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+=======
+      <a class="carousel-control-prev" href="#carouselExample-cf" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExample-cf" role="button" data-bs-slide="next">
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </a>
     </div>
   </div>
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 @endsection

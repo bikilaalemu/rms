@@ -13,12 +13,15 @@
     background-color: $background;
     color: if($color, $color, color-contrast($background)) !important;
   }
+<<<<<<< HEAD
   // DataTables collection dropdown item active
   .dt-button-collection {
     .dropdown-item:not(.disabled):active {
       background-color: $background;
     }
   }
+=======
+>>>>>>> 91224eec7d61b0977d31fd1b1d5f4070b50c39bc
 }
 
 @mixin template-dropdown-theme($background, $color: null) {
