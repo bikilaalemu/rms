@@ -126,7 +126,7 @@ mixAssetsDir('js/**/*.js', (src, dest) => mix.scripts(src, dest));
 mixAssetsDir('css/**/*.css', (src, dest) => mix.copy(src, dest));
 
 mix.copy('node_modules/boxicons/fonts/*', 'public/assets/vendor/fonts/boxicons');
-
+//mix.copy('resources/assets/vendor/fonts/boxicons.css', 'public/assets/vendor/fonts/boxicons.css');
 mix.version();
 
 /*
